@@ -4,10 +4,14 @@
     padding: 0;
 }
 
+body{
+    background-image: linear-gradient(#f7d3d6, #fefebe, #cce7cd, #dff0f7, #d0d5f7);
+}
+
 .header{
     padding: 26px;
     display: flex;
-    background-color: #f7d3d6;
+    /*background-color: #f7d3d6;*/
 }
 
 .header nav ul li {
@@ -38,26 +42,30 @@ p, ul, li, a{
 }
 
 #about-me{
-    background-color: #fefebe;
+    /*background-color: #fefebe;*/
     padding: 26px;
+}
+#am-p{
+    display: inline-flex;
 }
 
 #skills{
-    background-color: #cce7cd;
+    /*background-color: #cce7cd;*/
     padding: 26px;
 }
 
 #portfolio{
-    background-color: #dff0f7;
+    /*background-color: #dff0f7;*/
     padding: 26px;
 }
 
 #contact-info{
-    background-color: #d0d5f7;
+    /*background-color: #d0d5f7;*/
     padding: 26px;
 }
 
-.am-text{
+#am-text{
     float: right;
     font-family: 'Poppins', sans-serif;
+    vertical-align: middle;
 }
