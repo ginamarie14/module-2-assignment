@@ -9,3 +9,7 @@ The navigation bar is interactive and allows the user to jump right to the secti
 ![second_screenshot](./assets/images/portfolio-img-2.png)
 
 The contact section links you directly to my LinkedIn, GitHub, e-mail, and phone depending on the link clicked. The phone link works with Skype or a mobile's default calling app.
+
+![screenshot_buttons](./assets/images/portfolio-img-3.png)
+
+Although I was unable to capture the mouse in the screenshot, the pink button shows the hover state of the buttons that lead you to different projects that I have done.
