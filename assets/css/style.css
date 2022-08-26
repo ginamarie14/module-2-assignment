@@ -8,6 +8,10 @@ body{
     background-image: linear-gradient(#f7d3d6, #fefebe, #cce7cd, #dff0f7, #d0d5f7);
 }
 
+img{
+    border-radius: 50%;
+}
+
 .header{
     padding: 26px;
     display: flex;
@@ -41,6 +45,17 @@ p, ul, li, a{
     padding-left: 26px;
 }
 
+button{
+    border-radius: 25%;
+    height: 150px;
+    width: 200px;
+    background-color: #cce7cd;
+}
+
+button:hover{
+    background-color: #f7d3d6;
+}
+
 #about-me{
     /*background-color: #fefebe;*/
     padding: 26px;
@@ -54,6 +69,10 @@ p, ul, li, a{
     padding: 26px;
 }
 
+.skills-elements{
+    display: inline-flex;
+}
+
 #portfolio{
     /*background-color: #dff0f7;*/
     padding: 26px;
@@ -64,8 +83,72 @@ p, ul, li, a{
     padding: 26px;
 }
 
+.contact-info-elements{
+    display: inline-flex;
+}
+
 #am-text{
     float: right;
     font-family: 'Poppins', sans-serif;
+    display: table-cell;
     vertical-align: middle;
 }
+
+/*The following parameters are for tablets that have the approximate size of an iPad Air and smaller*/
+@media screen and (max-width: 1180px) {
+    /*.header{
+        padding: auto;
+    }*/
+    .header nav ul li {
+        display: inline-flex;
+        margin-left: 0%;
+        margin-top: 8px;
+        font-size: 20px;
+    }
+    h1{
+        font-size: 36px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 24px;
+    }
+    ul, li{
+        font-size: 20px;
+    }
+    #am-text{
+        font-size: x-large;
+    }
+    button{
+        font-size: 18px;
+    }
+  }
+
+  /* These parameters are for smartphones the same size or smaller than an iPhone XR/11/12/13 */
+  @media screen and (max-width: 896px) {
+    .header nav ul li {
+        display: inline-flex;
+        margin-left: 0%;
+        margin-top: 8px;
+        font-size: large;
+    }
+    h1{
+        font-size: 36px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 24px;
+    }
+    ul, li{
+        font-size: 20px;
+    }
+    #am-text{
+        font-size: x-large;
+    }
+    button{
+        font-size: 18px;
+    }
+  }
