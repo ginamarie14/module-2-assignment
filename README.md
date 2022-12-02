@@ -1,5 +1,7 @@
 # module-2-assignment
 
+Find the deployed site here: https://ginamarie14.github.io/module-2-assignment/
+
 This is a my first version of a portfolio page. It is divided into five main sections: a header with navigation bar, an "About Me" section, a "Skills" section, a "Portfolio" section, and a "Get in Touch" or contact section.
 
 ![first_screenshot](./assets/images/portfolio-img-1.png)
